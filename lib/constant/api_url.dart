@@ -1,0 +1,1 @@
+ final String apiUrl = "https://interview.krishivikas.com";
