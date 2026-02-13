@@ -60,7 +60,7 @@ class _DealerNotificationListScreenState
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      /// 🔹 Image Section
+
                       if (item.image != null && item.image!.isNotEmpty)
                         ClipRRect(
                           borderRadius: const BorderRadius.vertical(
@@ -92,7 +92,7 @@ class _DealerNotificationListScreenState
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            /// Title
+
                             Text(
                               item.title,
                               style: const TextStyle(
@@ -103,7 +103,7 @@ class _DealerNotificationListScreenState
 
                             const SizedBox(height: 6),
 
-                            /// Description
+
                             Text(
                               item.description,
                               style: TextStyle(color: Colors.grey.shade700),
@@ -111,7 +111,7 @@ class _DealerNotificationListScreenState
 
                             const SizedBox(height: 12),
 
-                            /// Tags
+
                             Wrap(
                               spacing: 8,
                               runSpacing: 8,
@@ -124,7 +124,7 @@ class _DealerNotificationListScreenState
 
                             const SizedBox(height: 12),
 
-                            /// Location
+
                             Row(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -149,7 +149,7 @@ class _DealerNotificationListScreenState
 
                             const SizedBox(height: 10),
 
-                            /// Date + Status
+
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
